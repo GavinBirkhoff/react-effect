@@ -110,7 +110,7 @@ var Button = /*#__PURE__*/function (_React$Component) {
         });
       } else if (iconType) {
         var rawCls = iconType.props && iconType.props.className;
-        var cls = classnames("re-icon", "".concat(prefixCls, "-icon"), size === "small" ? "re-icon-xxs" : "re-icon-md");
+        var cls = classnames("rp-icon", "".concat(prefixCls, "-icon"), size === "small" ? "rp-icon-xxs" : "rp-icon-md");
         iconEl = /*#__PURE__*/React.cloneElement(iconType, {
           className: rawCls ? "".concat(rawCls, " ").concat(cls) : cls
         });
@@ -136,7 +136,7 @@ var Button = /*#__PURE__*/function (_React$Component) {
 }(React.Component);
 
 Button.defaultProps = {
-  prefixCls: "re-button",
+  prefixCls: "rp-button",
   size: "large",
   inline: false,
   disabled: false,

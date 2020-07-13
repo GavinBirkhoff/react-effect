@@ -1,6 +1,6 @@
 /*do not import this file except components/style/index.less*/
-.re-fade-enter,
-.re-fade-appear {
+.rp-fade-enter,
+.rp-fade-appear {
   opacity: 0;
   -webkit-animation-duration: 0.2s;
           animation-duration: 0.2s;
@@ -11,7 +11,7 @@
   -webkit-animation-play-state: paused;
           animation-play-state: paused;
 }
-.re-fade-leave {
+.rp-fade-leave {
   -webkit-animation-duration: 0.2s;
           animation-duration: 0.2s;
   -webkit-animation-fill-mode: both;
@@ -21,14 +21,14 @@
   -webkit-animation-play-state: paused;
           animation-play-state: paused;
 }
-.re-fade-enter.re-fade-enter-active,
-.re-fade-appear.re-fade-appear-active {
+.rp-fade-enter.rp-fade-enter-active,
+.rp-fade-appear.rp-fade-appear-active {
   -webkit-animation-name: amFadeIn;
           animation-name: amFadeIn;
   -webkit-animation-play-state: running;
           animation-play-state: running;
 }
-.re-fade-leave.re-fade-leave-active {
+.rp-fade-leave.rp-fade-leave-active {
   -webkit-animation-name: amFadeOut;
           animation-name: amFadeOut;
   -webkit-animation-play-state: running;
@@ -66,13 +66,13 @@
     opacity: 0;
   }
 }
-.re-slide-up-enter,
-.re-slide-up-appear {
+.rp-slide-up-enter,
+.rp-slide-up-appear {
   transform: translate(0, 100%);
 }
-.re-slide-up-enter,
-.re-slide-up-appear,
-.re-slide-up-leave {
+.rp-slide-up-enter,
+.rp-slide-up-appear,
+.rp-slide-up-leave {
   -webkit-animation-duration: 0.2s;
           animation-duration: 0.2s;
   -webkit-animation-fill-mode: both;
@@ -82,14 +82,14 @@
   -webkit-animation-play-state: paused;
           animation-play-state: paused;
 }
-.re-slide-up-enter.re-slide-up-enter-active,
-.re-slide-up-appear.re-slide-up-appear-active {
+.rp-slide-up-enter.rp-slide-up-enter-active,
+.rp-slide-up-appear.rp-slide-up-appear-active {
   -webkit-animation-name: amSlideUpIn;
           animation-name: amSlideUpIn;
   -webkit-animation-play-state: running;
           animation-play-state: running;
 }
-.re-slide-up-leave.re-slide-up-leave-active {
+.rp-slide-up-leave.rp-slide-up-leave-active {
   -webkit-animation-name: amSlideUpOut;
           animation-name: amSlideUpOut;
   -webkit-animation-play-state: running;
@@ -127,12 +127,12 @@
     transform: translate(0, 100%);
   }
 }
-.re.re-zoom-enter,
-.re.re-zoom-leave {
+.rp.rp-zoom-enter,
+.rp.rp-zoom-leave {
   display: block;
 }
-.re-zoom-enter,
-.re-zoom-appear {
+.rp-zoom-enter,
+.rp-zoom-appear {
   opacity: 0;
   -webkit-animation-duration: 0.2s;
           animation-duration: 0.2s;
@@ -145,7 +145,7 @@
   -webkit-animation-play-state: paused;
           animation-play-state: paused;
 }
-.re-zoom-leave {
+.rp-zoom-leave {
   -webkit-animation-duration: 0.2s;
           animation-duration: 0.2s;
   -webkit-animation-fill-mode: both;
@@ -157,14 +157,14 @@
   -webkit-animation-play-state: paused;
           animation-play-state: paused;
 }
-.re-zoom-enter.re-zoom-enter-active,
-.re-zoom-appear.re-zoom-appear-active {
+.rp-zoom-enter.rp-zoom-enter-active,
+.rp-zoom-appear.rp-zoom-appear-active {
   -webkit-animation-name: amZoomIn;
           animation-name: amZoomIn;
   -webkit-animation-play-state: running;
           animation-play-state: running;
 }
-.re-zoom-leave.re-zoom-leave-active {
+.rp-zoom-leave.rp-zoom-leave-active {
   -webkit-animation-name: amZoomOut;
           animation-name: amZoomOut;
   -webkit-animation-play-state: running;
@@ -218,13 +218,13 @@
     transform: scale(0, 0);
   }
 }
-.re-slide-down-enter,
-.re-slide-down-appear {
+.rp-slide-down-enter,
+.rp-slide-down-appear {
   transform: translate(0, -100%);
 }
-.re-slide-down-enter,
-.re-slide-down-appear,
-.re-slide-down-leave {
+.rp-slide-down-enter,
+.rp-slide-down-appear,
+.rp-slide-down-leave {
   -webkit-animation-duration: 0.2s;
           animation-duration: 0.2s;
   -webkit-animation-fill-mode: both;
@@ -234,14 +234,14 @@
   -webkit-animation-play-state: paused;
           animation-play-state: paused;
 }
-.re-slide-down-enter.re-slide-down-enter-active,
-.re-slide-down-appear.re-slide-down-appear-active {
+.rp-slide-down-enter.rp-slide-down-enter-active,
+.rp-slide-down-appear.rp-slide-down-appear-active {
   -webkit-animation-name: amSlideDownIn;
           animation-name: amSlideDownIn;
   -webkit-animation-play-state: running;
           animation-play-state: running;
 }
-.re-slide-down-leave.re-slide-down-leave-active {
+.rp-slide-down-leave.rp-slide-down-leave-active {
   -webkit-animation-name: amSlideDownOut;
           animation-name: amSlideDownOut;
   -webkit-animation-play-state: running;

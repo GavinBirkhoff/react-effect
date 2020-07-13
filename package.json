@@ -1,6 +1,6 @@
 {
-  "name": "react-effect",
-  "version": "0.0.1",
+  "name": "react-pearls",
+  "version": "0.0.2",
   "description": "react components congregation",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GavinBirkhoff/react-effect.git"
+    "url": "git+https://github.com/GavinBirkhoff/react-pearls.git"
   },
   "keywords": [
     "react",
@@ -28,9 +28,9 @@
   "author": "Gavin Birkhoff <gavinbirkhoff@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/GavinBirkhoff/react-effect/issues"
+    "url": "https://github.com/GavinBirkhoff/react-pearls/issues"
   },
-  "homepage": "https://github.com/GavinBirkhoff/react-effect#readme",
+  "homepage": "https://github.com/GavinBirkhoff/react-pearls#readme",
   "dependencies": {
     "classnames": "^2.2.6",
     "normalize.css": "^8.0.1",

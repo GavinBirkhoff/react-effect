@@ -64,7 +64,7 @@ var Icon = /*#__PURE__*/function (_React$Component) {
           size = _a.size,
           restProps = __rest(_a, ["type", "className", "size"]);
 
-      var cls = classnames(className, "re-icon", "re-icon-".concat(type), "re-icon-".concat(size));
+      var cls = classnames(className, "rp-icon", "rp-icon-".concat(type), "rp-icon-".concat(size));
       return /*#__PURE__*/React.createElement("svg", _extends({
         className: cls
       }, restProps), /*#__PURE__*/React.createElement("use", {

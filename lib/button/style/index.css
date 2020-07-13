@@ -1,4 +1,4 @@
-.re-button {
+.rp-button {
   display: block;
   outline: 0 none;
   -webkit-appearance: none;
@@ -18,11 +18,11 @@
   border-radius: 5px;
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
-  html:not([data-scale]) .re-button {
+  html:not([data-scale]) .rp-button {
     position: relative;
     border: none;
   }
-  html:not([data-scale]) .re-button::before {
+  html:not([data-scale]) .rp-button::before {
     content: '';
     position: absolute;
     left: 0;
@@ -37,28 +37,28 @@
     pointer-events: none;
   }
 }
-.re-button-borderfix:before {
+.rp-button-borderfix:before {
   transform: scale(0.49) !important;
 }
-.re-button.re-button-active {
+.rp-button.rp-button-active {
   background-color: #ddd;
 }
-.re-button.re-button-disabled {
+.rp-button.rp-button-disabled {
   color: rgba(0, 0, 0, 0.3);
   opacity: 0.6;
 }
-.re-button-primary {
+.rp-button-primary {
   color: #fff;
   background-color: #108ee9;
   border: 1PX solid #108ee9;
   border-radius: 5px;
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
-  html:not([data-scale]) .re-button-primary {
+  html:not([data-scale]) .rp-button-primary {
     position: relative;
     border: none;
   }
-  html:not([data-scale]) .re-button-primary::before {
+  html:not([data-scale]) .rp-button-primary::before {
     content: '';
     position: absolute;
     left: 0;
@@ -73,26 +73,26 @@
     pointer-events: none;
   }
 }
-.re-button-primary.re-button-active {
+.rp-button-primary.rp-button-active {
   color: rgba(255, 255, 255, 0.3);
   background-color: #0e80d2;
 }
-.re-button-primary.re-button-disabled {
+.rp-button-primary.rp-button-disabled {
   color: rgba(255, 255, 255, 0.6);
   opacity: 0.4;
 }
-.re-button-ghost {
+.rp-button-ghost {
   color: #108ee9;
   background-color: transparent;
   border: 1PX solid #108ee9;
   border-radius: 5px;
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
-  html:not([data-scale]) .re-button-ghost {
+  html:not([data-scale]) .rp-button-ghost {
     position: relative;
     border: none;
   }
-  html:not([data-scale]) .re-button-ghost::before {
+  html:not([data-scale]) .rp-button-ghost::before {
     content: '';
     position: absolute;
     left: 0;
@@ -107,18 +107,18 @@
     pointer-events: none;
   }
 }
-.re-button-ghost.re-button-active {
+.rp-button-ghost.rp-button-active {
   color: rgba(16, 142, 233, 0.6);
   background-color: transparent;
   border: 1PX solid rgba(16, 142, 233, 0.6);
   border-radius: 5px;
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
-  html:not([data-scale]) .re-button-ghost.re-button-active {
+  html:not([data-scale]) .rp-button-ghost.rp-button-active {
     position: relative;
     border: none;
   }
-  html:not([data-scale]) .re-button-ghost.re-button-active::before {
+  html:not([data-scale]) .rp-button-ghost.rp-button-active::before {
     content: '';
     position: absolute;
     left: 0;
@@ -133,18 +133,18 @@
     pointer-events: none;
   }
 }
-.re-button-ghost.re-button-disabled {
+.rp-button-ghost.rp-button-disabled {
   color: rgba(0, 0, 0, 0.1);
   border: 1PX solid rgba(0, 0, 0, 0.1);
   border-radius: 5px;
   opacity: 1;
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
-  html:not([data-scale]) .re-button-ghost.re-button-disabled {
+  html:not([data-scale]) .rp-button-ghost.rp-button-disabled {
     position: relative;
     border: none;
   }
-  html:not([data-scale]) .re-button-ghost.re-button-disabled::before {
+  html:not([data-scale]) .rp-button-ghost.rp-button-disabled::before {
     content: '';
     position: absolute;
     left: 0;
@@ -159,36 +159,36 @@
     pointer-events: none;
   }
 }
-.re-button-warning {
+.rp-button-warning {
   color: #fff;
   background-color: #e94f4f;
 }
-.re-button-warning.re-button-active {
+.rp-button-warning.rp-button-active {
   color: rgba(255, 255, 255, 0.3);
   background-color: #d24747;
 }
-.re-button-warning.re-button-disabled {
+.rp-button-warning.rp-button-disabled {
   color: rgba(255, 255, 255, 0.6);
   opacity: 0.4;
 }
-.re-button-inline {
+.rp-button-inline {
   display: inline-block;
   padding: 0 15px;
 }
-.re-button-inline.re-button-icon {
+.rp-button-inline.rp-button-icon {
   display: inline-flex;
 }
-.re-button-small {
+.rp-button-small {
   font-size: 13px;
   height: 30px;
   line-height: 30px;
   padding: 0 15px;
 }
-.re-button-icon {
+.rp-button-icon {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.re-button > .re-button-icon {
+.rp-button > .rp-button-icon {
   margin-right: 0.5em;
 }

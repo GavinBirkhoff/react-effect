@@ -1,6 +1,6 @@
-@import '../../style/mixins';
-@import '../../style/themes/default';
-@buttonPrefixCls: re-button;
+@import "../../style/mixins";
+@import "../../style/themes/default";
+@buttonPrefixCls: rp-button;
 
 .@{buttonPrefixCls} {
   // do not use width:100%, can not set margin
@@ -23,7 +23,7 @@
   color: @color-text-base;
   background-color: @fill-base;
 
-  .hairline('all', @border-color-base, @radius-md);
+  .hairline("all", @border-color-base, @radius-md);
 
   // Multiple buttons inline arranged, the last one border-right may not display
   &-borderfix {
@@ -44,7 +44,7 @@
   &-primary {
     color: @color-text-base-inverse;
     background-color: @primary-button-fill;
-    .hairline('all', @primary-button-fill, @radius-md);
+    .hairline("all", @primary-button-fill, @radius-md);
 
     &.@{buttonPrefixCls}-active {
       color: fade(@color-text-base-inverse, 30%);
@@ -60,17 +60,17 @@
   &-ghost {
     color: @ghost-button-color;
     background-color: transparent;
-    .hairline('all', @ghost-button-color, @radius-md);
+    .hairline("all", @ghost-button-color, @radius-md);
 
     &.@{buttonPrefixCls}-active {
       color: @ghost-button-fill-tap;
       background-color: transparent;
-      .hairline('all', @ghost-button-fill-tap, @radius-md);
+      .hairline("all", @ghost-button-fill-tap, @radius-md);
     }
 
     &.@{buttonPrefixCls}-disabled {
       color: fade(@color-text-base, 10%);
-      .hairline('all', fade(@color-text-base, 10%), @radius-md);
+      .hairline("all", fade(@color-text-base, 10%), @radius-md);
       opacity: 1; // override default opacity: 0.6
     }
   }
@@ -112,7 +112,7 @@
     justify-content: center;
   }
 
-  >.@{buttonPrefixCls}-icon {
+  > .@{buttonPrefixCls}-icon {
     margin-right: 0.5em;
   }
 }
