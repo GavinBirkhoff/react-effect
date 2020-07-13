@@ -1,6 +1,6 @@
 {
   "name": "react-effect",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "react components congregation",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -17,7 +17,14 @@
     "type": "git",
     "url": "git+https://github.com/GavinBirkhoff/react-effect.git"
   },
-  "keywords": [],
+  "keywords": [
+    "react",
+    "react-component",
+    "component",
+    "components",
+    "ui",
+    "mobile"
+  ],
   "author": "Gavin Birkhoff <gavinbirkhoff@gmail.com>",
   "license": "MIT",
   "bugs": {
