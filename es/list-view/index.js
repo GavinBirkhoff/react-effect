@@ -37,7 +37,7 @@ var __rest = this && this.__rest || function (s, e) {
 
 import * as React from "react";
 import VirtualList from "react-pearls-virtual-list";
-import { classnames } from "classnames";
+import classnames from "classnames";
 
 var ListView = /*#__PURE__*/function (_React$Component) {
   _inherits(ListView, _React$Component);

@@ -1,4 +1,4 @@
-/*! react-pearls v0.0.7 */
+/*! react-pearls v0.0.8 */
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
 		module.exports = factory(require("react"));
@@ -1058,7 +1058,7 @@ var ListView = /*#__PURE__*/function (_React$Component) {
           className = _a.className,
           restProps = __rest(_a, ["prefixCls", "className"]);
 
-      var wrapCls = Object(classnames__WEBPACK_IMPORTED_MODULE_2__["classnames"])(prefixCls, className);
+      var wrapCls = classnames__WEBPACK_IMPORTED_MODULE_2___default()(prefixCls, className);
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"](react_pearls_virtual_list__WEBPACK_IMPORTED_MODULE_1__["default"], _extends({
         ref: function ref(el) {
           return _this2.listviewRef = el;
