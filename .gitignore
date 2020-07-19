@@ -25,7 +25,6 @@ elasticsearch-*
 config/base.yaml
 _data
 xcuserdata
-components/*
 components/**/*.jsx
 components/**/*.js
 my-release-key.keystore

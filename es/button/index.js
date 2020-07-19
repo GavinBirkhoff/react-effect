@@ -39,7 +39,7 @@ var __rest = this && this.__rest || function (s, e) {
 
 import classnames from "classnames";
 import * as React from "react";
-import TouchEffect from "../touch-effect";
+import TouchEffect from "touch-effect";
 import Icon from "../icon";
 var rxTwoCNChar = /^[\u4e00-\u9fa5]{2}$/;
 var isTwoCNChar = rxTwoCNChar.test.bind(rxTwoCNChar);
@@ -110,7 +110,7 @@ var Button = /*#__PURE__*/function (_React$Component) {
         });
       } else if (iconType) {
         var rawCls = iconType.props && iconType.props.className;
-        var cls = classnames("rp-icon", "".concat(prefixCls, "-icon"), size === "small" ? "rp-icon-xxs" : "rp-icon-md");
+        var cls = classnames("pm-icon", "".concat(prefixCls, "-icon"), size === "small" ? "pm-icon-xxs" : "pm-icon-md");
         iconEl = /*#__PURE__*/React.cloneElement(iconType, {
           className: rawCls ? "".concat(rawCls, " ").concat(cls) : cls
         });
@@ -136,7 +136,7 @@ var Button = /*#__PURE__*/function (_React$Component) {
 }(React.Component);
 
 Button.defaultProps = {
-  prefixCls: "rp-button",
+  prefixCls: "pm-button",
   size: "large",
   inline: false,
   disabled: false,

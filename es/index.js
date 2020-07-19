@@ -5,7 +5,8 @@ if (ENV !== "production" && ENV !== "test" && typeof console !== "undefined" && 
   console.warn("You are using a whole package of react-pearls");
 }
 
-export { default as Button } from "./button/index"; // export { default as List } from "./list/index"
-// export { default as Switch } from "./switch/index"
-
-export { default as touchEffect } from "./touch-effect/index";
+export { default as Button } from "./button/index";
+export { default as List } from "./list/index";
+export { default as Switch } from "./switch/index";
+export { default as Checkbox } from "./checkbox/index";
+export { default as RpCheckbox } from "./rp-checkbox/index";

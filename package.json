@@ -1,6 +1,6 @@
 {
   "name": "react-pearls",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "description": "react components congregation",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -35,13 +35,19 @@
     "classnames": "^2.2.6",
     "normalize.css": "^8.0.1",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "react-pearls-virtual-list": "^1.0.0",
+    "touch-effect": "^1.0.0",
+    "warning": "^4.0.3"
   },
   "devDependencies": {
     "@types/node": "^14.0.22",
     "@types/react": "^16.9.43",
+    "@types/react-dom": "^16.9.8",
+    "@types/warning": "^3.0.0",
     "@typescript-eslint/eslint-plugin": "^3.6.0",
     "@typescript-eslint/parser": "^3.6.0",
+    "cross-env": "^7.0.2",
     "eslint": "^7.4.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-prettier": "^3.1.4",

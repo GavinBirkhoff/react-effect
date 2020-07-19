@@ -1,0 +1,108 @@
+.pm-checkbox {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  width: 21px;
+  height: 21px;
+}
+.pm-checkbox-inner {
+  position: absolute;
+  right: 0;
+  width: 21px;
+  height: 21px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  transform: rotate(0deg);
+  box-sizing: border-box;
+}
+.pm-checkbox-inner:after {
+  position: absolute;
+  display: none;
+  top: 1.5px;
+  right: 6px;
+  z-index: 999;
+  width: 5px;
+  height: 11px;
+  border-style: solid;
+  border-width: 0 1px 1px 0;
+  content: '\0020';
+  transform: rotate(45deg);
+}
+.pm-checkbox-input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  border: 0 none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+.pm-checkbox.pm-checkbox-checked .pm-checkbox-inner {
+  border-color: #108ee9;
+  background: #108ee9;
+}
+.pm-checkbox.pm-checkbox-checked .pm-checkbox-inner:after {
+  display: block;
+  border-color: #fff;
+}
+.pm-checkbox.pm-checkbox-disabled {
+  opacity: 0.3;
+}
+.pm-checkbox.pm-checkbox-disabled.pm-checkbox-checked .pm-checkbox-inner {
+  border-color: #888;
+  background: none;
+}
+.pm-checkbox.pm-checkbox-disabled.pm-checkbox-checked .pm-checkbox-inner:after {
+  border-color: #888;
+}
+.pm-list .pm-list-item.pm-checkbox-item .pm-list-thumb {
+  width: 21px;
+  height: 21px;
+}
+.pm-list .pm-list-item.pm-checkbox-item .pm-list-thumb .pm-checkbox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 44px;
+}
+.pm-list .pm-list-item.pm-checkbox-item .pm-list-thumb .pm-checkbox-inner {
+  left: 15px;
+  top: 12px;
+}
+.pm-list .pm-list-item.pm-checkbox-item.pm-checkbox-item-disabled .pm-list-content {
+  color: #bbb;
+}
+.pm-checkbox-agree {
+  position: relative;
+  display: flex;
+  align-items: stretch;
+  margin-left: 15px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+.pm-checkbox-agree .pm-checkbox {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 30px;
+  height: 100%;
+}
+.pm-checkbox-agree .pm-checkbox-inner {
+  left: 0;
+  top: 12px;
+}
+.pm-checkbox-agree .pm-checkbox-agree-label {
+  display: inline-block;
+  font-size: 15px;
+  color: #000;
+  line-height: 1.5;
+  margin-left: 30px;
+  margin-top: 1PX;
+}

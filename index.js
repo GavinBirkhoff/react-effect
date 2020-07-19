@@ -3,7 +3,7 @@
  */
 
 /**
- * build for `dist/react-effect.css`
+ * build for `dist/react-pearls.css`
  */
 const req = require.context("./components", true, /^\.\/[^_][\w-]+\/style\/index\.tsx?$/)
 req.keys().forEach(mod => {
@@ -11,6 +11,6 @@ req.keys().forEach(mod => {
 })
 
 /**
- * build for `dist/react-effect.js`
+ * build for `dist/react-pearls.js`
  */
 module.exports = require("./components/index")
