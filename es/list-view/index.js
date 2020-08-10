@@ -89,7 +89,7 @@ var ListView = /*#__PURE__*/function (_React$Component) {
 
 export { ListView as default };
 ListView.defaultProps = {
-  prefixCls: "am-list-view",
-  listPrefixCls: "am-list",
+  prefixCls: "pm-list-view",
+  listPrefixCls: "pm-list",
   width: "auto"
 };

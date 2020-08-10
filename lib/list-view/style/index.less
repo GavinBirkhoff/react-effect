@@ -1,33 +1,33 @@
 @import '../../style/mixins';
 @import '../../style/themes/default';
 
-@indexedList: am-indexed-list;
+@indexedList: pm-indexed-list;
 
 .@{indexedList} {
 
-  &-section-body.am-list-body,
-  &-section-body.am-list-body .am-list-item:last-child .am-list-line {
+  &-section-body.pm-list-body,
+  &-section-body.pm-list-body .pm-list-item:last-child .pm-list-line {
     .hairline-remove('bottom');
   }
 
   &-section-header {
 
-    &.am-list-body,
-    &.am-list-body .am-list-item .am-list-line {
+    &.pm-list-body,
+    &.pm-list-body .pm-list-item .pm-list-line {
       .hairline-remove('bottom');
     }
 
-    .am-list-item {
+    .pm-list-item {
       height: @list-title-height;
       min-height: @list-title-height;
       background-color: @fill-body;
 
-      .am-list-line {
+      .pm-list-line {
         height: @list-title-height;
         min-height: @list-title-height;
       }
 
-      .am-list-content {
+      .pm-list-content {
         font-size: @font-size-base  !important;
         color: @color-text-caption  !important;
       }

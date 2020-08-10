@@ -1,33 +1,33 @@
-.am-indexed-list-section-body.am-list-body,
-.am-indexed-list-section-body.am-list-body .am-list-item:last-child .am-list-line {
+.pm-indexed-list-section-body.pm-list-body,
+.pm-indexed-list-section-body.pm-list-body .pm-list-item:last-child .pm-list-line {
   border-bottom: 0;
 }
-.am-indexed-list-section-body.am-list-body:after,
-.am-indexed-list-section-body.am-list-body .am-list-item:last-child .am-list-line:after {
+.pm-indexed-list-section-body.pm-list-body:after,
+.pm-indexed-list-section-body.pm-list-body .pm-list-item:last-child .pm-list-line:after {
   display: none !important;
 }
-.am-indexed-list-section-header.am-list-body,
-.am-indexed-list-section-header.am-list-body .am-list-item .am-list-line {
+.pm-indexed-list-section-header.pm-list-body,
+.pm-indexed-list-section-header.pm-list-body .pm-list-item .pm-list-line {
   border-bottom: 0;
 }
-.am-indexed-list-section-header.am-list-body:after,
-.am-indexed-list-section-header.am-list-body .am-list-item .am-list-line:after {
+.pm-indexed-list-section-header.pm-list-body:after,
+.pm-indexed-list-section-header.pm-list-body .pm-list-item .pm-list-line:after {
   display: none !important;
 }
-.am-indexed-list-section-header .am-list-item {
+.pm-indexed-list-section-header .pm-list-item {
   height: 30px;
   min-height: 30px;
   background-color: #f5f5f9;
 }
-.am-indexed-list-section-header .am-list-item .am-list-line {
+.pm-indexed-list-section-header .pm-list-item .pm-list-line {
   height: 30px;
   min-height: 30px;
 }
-.am-indexed-list-section-header .am-list-item .am-list-content {
+.pm-indexed-list-section-header .pm-list-item .pm-list-content {
   font-size: 14px !important;
   color: #888 !important;
 }
-.am-indexed-list-quick-search-bar {
+.pm-indexed-list-quick-search-bar {
   position: fixed;
   top: 0;
   right: 0;
@@ -38,13 +38,13 @@
   list-style: none;
   padding: 0;
 }
-.am-indexed-list-quick-search-bar li {
+.pm-indexed-list-quick-search-bar li {
   padding: 0 5px;
 }
-.am-indexed-list-quick-search-bar-over {
+.pm-indexed-list-quick-search-bar-over {
   background-color: rgba(0, 0, 0, 0.4);
 }
-.am-indexed-list-qsindicator {
+.pm-indexed-list-qsindicator {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -60,6 +60,6 @@
   text-align: center;
   line-height: 30px;
 }
-.am-indexed-list-qsindicator-hide {
+.pm-indexed-list-qsindicator-hide {
   display: none;
 }

@@ -1,0 +1,15 @@
+.pm-whitespace.pm-whitespace-xs {
+  height: 3px;
+}
+.pm-whitespace.pm-whitespace-sm {
+  height: 6px;
+}
+.pm-whitespace.pm-whitespace-md {
+  height: 9px;
+}
+.pm-whitespace.pm-whitespace-lg {
+  height: 15px;
+}
+.pm-whitespace.pm-whitespace-xl {
+  height: 21px;
+}

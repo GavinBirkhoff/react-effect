@@ -1,0 +1,16 @@
+.pm-wingblank {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.pm-wingblank.pm-wingblank-sm {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.pm-wingblank.pm-wingblank-md {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.pm-wingblank.pm-wingblank-lg {
+  margin-left: 15px;
+  margin-right: 15px;
+}

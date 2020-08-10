@@ -1,0 +1,51 @@
+.pm-swipe {
+  overflow: hidden;
+  position: relative;
+}
+.pm-swipe-content {
+  position: relative;
+  background-color: #fff;
+}
+.pm-swipe-cover {
+  position: absolute;
+  z-index: 2;
+  background: transparent;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  display: none;
+}
+.pm-swipe .pm-swipe-content,
+.pm-swipe .pm-swipe-actions {
+  transition: all 250ms;
+}
+.pm-swipe-swiping .pm-swipe-content,
+.pm-swipe-swiping .pm-swipe-actions {
+  transition: none;
+}
+.pm-swipe-swiping .pm-list-item-active {
+  background-color: #FFF;
+}
+.pm-swipe-actions {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.pm-swipe-actions-left {
+  left: 0;
+}
+.pm-swipe-actions-right {
+  right: 0;
+}
+.pm-swipe-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.pm-swipe-btn-text {
+  padding: 0 8px;
+}

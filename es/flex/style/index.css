@@ -1,0 +1,91 @@
+/* flexbox */
+.pm-flexbox {
+  text-align: left;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.pm-flexbox.pm-flexbox-dir-row {
+  flex-direction: row;
+}
+.pm-flexbox.pm-flexbox-dir-row-reverse {
+  flex-direction: row-reverse;
+}
+.pm-flexbox.pm-flexbox-dir-column {
+  flex-direction: column;
+}
+.pm-flexbox.pm-flexbox-dir-column .pm-flexbox-item {
+  margin-left: 0;
+}
+.pm-flexbox.pm-flexbox-dir-column-reverse {
+  flex-direction: column-reverse;
+}
+.pm-flexbox.pm-flexbox-dir-column-reverse .pm-flexbox-item {
+  margin-left: 0;
+}
+.pm-flexbox.pm-flexbox-nowrap {
+  flex-wrap: nowrap;
+}
+.pm-flexbox.pm-flexbox-wrap {
+  flex-wrap: wrap;
+}
+.pm-flexbox.pm-flexbox-wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+.pm-flexbox.pm-flexbox-justify-start {
+  justify-content: flex-start;
+}
+.pm-flexbox.pm-flexbox-justify-end {
+  justify-content: flex-end;
+}
+.pm-flexbox.pm-flexbox-justify-center {
+  justify-content: center;
+}
+.pm-flexbox.pm-flexbox-justify-between {
+  justify-content: space-between;
+}
+.pm-flexbox.pm-flexbox-justify-around {
+  justify-content: space-around;
+}
+.pm-flexbox.pm-flexbox-align-start {
+  align-items: flex-start;
+}
+.pm-flexbox.pm-flexbox-align-end {
+  align-items: flex-end;
+}
+.pm-flexbox.pm-flexbox-align-center {
+  align-items: center;
+}
+.pm-flexbox.pm-flexbox-align-stretch {
+  align-items: stretch;
+}
+.pm-flexbox.pm-flexbox-align-baseline {
+  align-items: baseline;
+}
+.pm-flexbox.pm-flexbox-align-content-start {
+  align-content: flex-start;
+}
+.pm-flexbox.pm-flexbox-align-content-end {
+  align-content: flex-end;
+}
+.pm-flexbox.pm-flexbox-align-content-center {
+  align-content: center;
+}
+.pm-flexbox.pm-flexbox-align-content-between {
+  align-content: space-between;
+}
+.pm-flexbox.pm-flexbox-align-content-around {
+  align-content: space-around;
+}
+.pm-flexbox.pm-flexbox-align-content-stretch {
+  align-content: stretch;
+}
+.pm-flexbox .pm-flexbox-item {
+  box-sizing: border-box;
+  flex: 1;
+  margin-left: 8px;
+  min-width: 10px;
+}
+.pm-flexbox .pm-flexbox-item:first-child {
+  margin-left: 0;
+}

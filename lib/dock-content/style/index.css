@@ -1,0 +1,77 @@
+.pm-dock {
+  width: 100%;
+  height: 100%;
+}
+.pm-dock-sub {
+  width: 100%;
+  height: 100%;
+}
+.pm-dock .pm-container {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex: 1 1;
+  background-color: transparent;
+  overflow: hidden;
+}
+.pm-dock .pm-container-last {
+  width: 100%;
+  height: 100%;
+}
+.pm-dock .pm-container-top {
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.pm-dock .pm-container-left {
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+.pm-dock .pm-container-right {
+  flex-direction: row-reverse;
+  width: 100%;
+  height: 100%;
+}
+.pm-dock .pm-container-bottom {
+  flex-direction: column-reverse;
+  width: 100%;
+  height: 100%;
+}
+.pm-dock .pm-dockbar {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  background-color: transparent;
+}
+.pm-dock .pm-dockbar-top {
+  flex-direction: row;
+  width: 100%;
+}
+.pm-dock .pm-dockbar-left {
+  flex-direction: column;
+  height: 100%;
+}
+.pm-dock .pm-dockbar-right {
+  flex-direction: column;
+  height: 100%;
+}
+.pm-dock .pm-dockbar-bottom {
+  flex-direction: row;
+  width: 100%;
+}
+.pm-dock .pm-dockbar-filler {
+  flex: 1 1;
+}
+.pm-dock .pm-dockbar-h-divider {
+  width: 80%;
+  border-radius: 2px;
+  border: 2px solid rgba(100, 100, 100, 0.5);
+  margin: 4px;
+}
+.pm-dock .pm-dockbar-v-divider {
+  height: 80%;
+  border-radius: 2px;
+  border: 2px solid rgba(100, 100, 100, 0.5);
+  margin: 4px;
+}

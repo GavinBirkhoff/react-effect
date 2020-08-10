@@ -1,0 +1,40 @@
+.pm-navbar {
+  display: flex;
+  align-items: center;
+  height: 45px;
+  background-color: #108ee9;
+  color: #fff;
+}
+.pm-navbar-left,
+.pm-navbar-title,
+.pm-navbar-right {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.pm-navbar-left {
+  padding-left: 15px;
+  font-size: 16px;
+}
+.pm-navbar-left-icon {
+  margin-right: 5px;
+  display: inherit;
+}
+.pm-navbar-title {
+  justify-content: center;
+  font-size: 18px;
+  white-space: nowrap;
+}
+.pm-navbar-right {
+  justify-content: flex-end;
+  font-size: 16px;
+  margin-right: 15px;
+}
+.pm-navbar-light {
+  background-color: #fff;
+  color: #108ee9;
+}
+.pm-navbar-light .pm-navbar-title {
+  color: #000;
+}

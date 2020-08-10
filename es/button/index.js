@@ -114,8 +114,7 @@ var Button = /*#__PURE__*/function (_React$Component) {
         iconEl = /*#__PURE__*/React.cloneElement(iconType, {
           className: rawCls ? "".concat(rawCls, " ").concat(cls) : cls
         });
-      } // use div, button native is buggy @yiminghe
-
+      }
 
       return /*#__PURE__*/React.createElement(TouchEffect // tslint:disable-next-line:jsx-no-multiline-js
       , {

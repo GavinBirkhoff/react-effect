@@ -30,7 +30,9 @@ declare class Checkbox extends React.Component<CheckboxProps, any> {
     };
     input: any;
     constructor(props: CheckboxProps);
-    static getDerivedStateFromProps(props: CheckboxProps, state: any): any;
+    static getDerivedStateFromProps(nextProps: CheckboxProps, prevState: any): {
+        checked: boolean | undefined;
+    } | null;
     focus(): void;
     blur(): void;
     handleChange: (e: any) => void;

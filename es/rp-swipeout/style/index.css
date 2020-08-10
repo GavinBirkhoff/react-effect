@@ -1,0 +1,48 @@
+.rp-swipeout {
+  overflow: hidden;
+  position: relative;
+}
+.rp-swipeout-content {
+  position: relative;
+  background-color: #fff;
+}
+.rp-swipeout-cover {
+  position: absolute;
+  z-index: 2;
+  background: transparent;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  display: none;
+}
+.rp-swipeout .rp-swipeout-content,
+.rp-swipeout .rp-swipeout-actions {
+  transition: all 250ms;
+}
+.rp-swipeout-swiping .rp-swipeout-content {
+  transition: none;
+}
+.rp-swipeout-actions {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.rp-swipeout-actions-left {
+  left: 0;
+}
+.rp-swipeout-actions-right {
+  right: 0;
+}
+.rp-swipeout-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+.rp-swipeout-btn-text {
+  padding: 0 12px;
+}
