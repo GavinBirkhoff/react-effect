@@ -1,6 +1,6 @@
 {
   "name": "react-pearls",
-  "version": "0.1.11",
+  "version": "0.2.0",
   "description": "react components congregation",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -34,11 +34,13 @@
   "homepage": "https://github.com/GavinBirkhoff/react-pearls#readme",
   "dependencies": {
     "classnames": "^2.2.6",
+    "gesture-effect": "^1.0.1",
     "normalize.css": "^8.0.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-pearls-virtual-list": "^1.0.0",
     "touch-effect": "^1.0.0",
+    "ts-md5": "^1.2.7",
     "warning": "^4.0.3"
   },
   "devDependencies": {

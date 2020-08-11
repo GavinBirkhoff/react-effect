@@ -14,6 +14,7 @@ export { default as Icon } from "./icon/index";
 export { default as List } from "./list/index";
 export { default as ListView } from "./list-view/index";
 export { default as NavBar } from "./nav-bar/index";
+export { default as NotificationView } from "./notification-view/index";
 export { default as Progress } from "./progress/index";
 export { default as RpCheckbox } from "./rp-checkbox/index";
 export { default as Swipeout } from "./rp-swipeout/index";

@@ -114,6 +114,7 @@ var map = {
 	"./list-view/style/index.tsx": "../../../components/list-view/style/index.tsx",
 	"./list/style/index.tsx": "../../../components/list/style/index.tsx",
 	"./nav-bar/style/index.tsx": "../../../components/nav-bar/style/index.tsx",
+	"./notification-view/style/index.tsx": "../../../components/notification-view/style/index.tsx",
 	"./progress/style/index.tsx": "../../../components/progress/style/index.tsx",
 	"./rp-checkbox/style/index.tsx": "../../../components/rp-checkbox/style/index.tsx",
 	"./rp-swipeout/style/index.tsx": "../../../components/rp-swipeout/style/index.tsx",
@@ -1560,7 +1561,7 @@ __webpack_require__.r(__webpack_exports__);
 /*!***********************************************!*\
   !*** D:/PRO-github/resc/components/index.tsx ***!
   \***********************************************/
-/*! exports provided: ActivityIndicator, Button, Checkbox, DockContent, Flex, Icon, List, ListView, NavBar, Progress, RpCheckbox, Swipeout, SearchBar, SegmentedControl, SwipeAction, Switch, WhiteSpace, WingBlank */
+/*! exports provided: ActivityIndicator, Button, Checkbox, DockContent, Flex, Icon, List, ListView, NavBar, NotificationView, Progress, RpCheckbox, Swipeout, SearchBar, SegmentedControl, SwipeAction, Switch, WhiteSpace, WingBlank */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1592,32 +1593,35 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _nav_bar_index__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./nav-bar/index */ "../../../components/nav-bar/index.tsx");
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "NavBar", function() { return _nav_bar_index__WEBPACK_IMPORTED_MODULE_8__["default"]; });
 
-/* harmony import */ var _progress_index__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./progress/index */ "../../../components/progress/index.tsx");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Progress", function() { return _progress_index__WEBPACK_IMPORTED_MODULE_9__["default"]; });
+/* harmony import */ var _notification_view_index__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./notification-view/index */ "../../../components/notification-view/index.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "NotificationView", function() { return _notification_view_index__WEBPACK_IMPORTED_MODULE_9__["default"]; });
 
-/* harmony import */ var _rp_checkbox_index__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./rp-checkbox/index */ "../../../components/rp-checkbox/index.tsx");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "RpCheckbox", function() { return _rp_checkbox_index__WEBPACK_IMPORTED_MODULE_10__["default"]; });
+/* harmony import */ var _progress_index__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./progress/index */ "../../../components/progress/index.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Progress", function() { return _progress_index__WEBPACK_IMPORTED_MODULE_10__["default"]; });
 
-/* harmony import */ var _rp_swipeout_index__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./rp-swipeout/index */ "../../../components/rp-swipeout/index.tsx");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Swipeout", function() { return _rp_swipeout_index__WEBPACK_IMPORTED_MODULE_11__["default"]; });
+/* harmony import */ var _rp_checkbox_index__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./rp-checkbox/index */ "../../../components/rp-checkbox/index.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "RpCheckbox", function() { return _rp_checkbox_index__WEBPACK_IMPORTED_MODULE_11__["default"]; });
 
-/* harmony import */ var _search_bar_index__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./search-bar/index */ "../../../components/search-bar/index.tsx");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SearchBar", function() { return _search_bar_index__WEBPACK_IMPORTED_MODULE_12__["default"]; });
+/* harmony import */ var _rp_swipeout_index__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./rp-swipeout/index */ "../../../components/rp-swipeout/index.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Swipeout", function() { return _rp_swipeout_index__WEBPACK_IMPORTED_MODULE_12__["default"]; });
 
-/* harmony import */ var _segmented_control_index__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./segmented-control/index */ "../../../components/segmented-control/index.tsx");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SegmentedControl", function() { return _segmented_control_index__WEBPACK_IMPORTED_MODULE_13__["default"]; });
+/* harmony import */ var _search_bar_index__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./search-bar/index */ "../../../components/search-bar/index.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SearchBar", function() { return _search_bar_index__WEBPACK_IMPORTED_MODULE_13__["default"]; });
 
-/* harmony import */ var _swipe_action_index__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./swipe-action/index */ "../../../components/swipe-action/index.tsx");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SwipeAction", function() { return _swipe_action_index__WEBPACK_IMPORTED_MODULE_14__["default"]; });
+/* harmony import */ var _segmented_control_index__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./segmented-control/index */ "../../../components/segmented-control/index.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SegmentedControl", function() { return _segmented_control_index__WEBPACK_IMPORTED_MODULE_14__["default"]; });
 
-/* harmony import */ var _switch_index__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./switch/index */ "../../../components/switch/index.tsx");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Switch", function() { return _switch_index__WEBPACK_IMPORTED_MODULE_15__["default"]; });
+/* harmony import */ var _swipe_action_index__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./swipe-action/index */ "../../../components/swipe-action/index.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SwipeAction", function() { return _swipe_action_index__WEBPACK_IMPORTED_MODULE_15__["default"]; });
 
-/* harmony import */ var _white_space_index__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./white-space/index */ "../../../components/white-space/index.tsx");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "WhiteSpace", function() { return _white_space_index__WEBPACK_IMPORTED_MODULE_16__["default"]; });
+/* harmony import */ var _switch_index__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./switch/index */ "../../../components/switch/index.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Switch", function() { return _switch_index__WEBPACK_IMPORTED_MODULE_16__["default"]; });
 
-/* harmony import */ var _wing_blank_index__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./wing-blank/index */ "../../../components/wing-blank/index.tsx");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "WingBlank", function() { return _wing_blank_index__WEBPACK_IMPORTED_MODULE_17__["default"]; });
+/* harmony import */ var _white_space_index__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./white-space/index */ "../../../components/white-space/index.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "WhiteSpace", function() { return _white_space_index__WEBPACK_IMPORTED_MODULE_17__["default"]; });
+
+/* harmony import */ var _wing_blank_index__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./wing-blank/index */ "../../../components/wing-blank/index.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "WingBlank", function() { return _wing_blank_index__WEBPACK_IMPORTED_MODULE_18__["default"]; });
 
 var ENV = "development";
 
@@ -1625,6 +1629,7 @@ if (ENV !== "production" && ENV !== "test" && typeof console !== "undefined" && 
   // tslint:disable-next-line:no-console
   console.warn("You are using a whole package of react-pearls");
 }
+
 
 
 
@@ -2302,6 +2307,393 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _style___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../style/ */ "../../../components/style/index.tsx");
 /* harmony import */ var _index_less__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.less */ "../../../components/nav-bar/style/index.less");
 /* harmony import */ var _index_less__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_index_less__WEBPACK_IMPORTED_MODULE_1__);
+
+
+
+/***/ }),
+
+/***/ "../../../components/notification-view/index.tsx":
+/*!*****************************************************************!*\
+  !*** D:/PRO-github/resc/components/notification-view/index.tsx ***!
+  \*****************************************************************/
+/*! exports provided: Notification, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Notification", function() { return Notification; });
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! classnames */ "../../classnames/index.js");
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _button_index__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../button/index */ "../../../components/button/index.tsx");
+/* harmony import */ var ts_md5_dist_md5__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ts-md5/dist/md5 */ "../../ts-md5/dist/md5.js");
+/* harmony import */ var ts_md5_dist_md5__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(ts_md5_dist_md5__WEBPACK_IMPORTED_MODULE_3__);
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+
+
+
+
+var notification = [];
+var notificationUpdate;
+var intervalID = 0;
+
+function exists(md5) {
+  return notification.findIndex(function (e) {
+    return e.md5 === md5;
+  }) >= 0;
+}
+
+function deleteNotification(uid, result) {
+  var i = notification.findIndex(function (e) {
+    return e.uid === uid;
+  });
+
+  if (i >= 0) {
+    var notify = notification.splice(i, 1);
+    if (notify.length > 0 && notify[0].onResult !== undefined) notify[0].onResult(result);
+    notificationUpdate();
+  }
+}
+
+function watchNotification() {
+  intervalID = window.setInterval(function () {
+    var withTimer = notification.filter(function (e) {
+      return e.timerS !== undefined && e.timerS > 0;
+    });
+
+    if (withTimer.length > 0) {
+      withTimer.filter(function (e) {
+        return Date.now() - e.created > (e.timerS !== undefined ? e.timerS : 0);
+      }).forEach(function (e) {
+        deleteNotification(e.uid, false);
+      });
+      notificationUpdate();
+    } else {
+      window.clearInterval(intervalID);
+    }
+  }, 1000);
+}
+
+var Notification = /*#__PURE__*/function () {
+  function Notification(message) {
+    _classCallCheck(this, Notification);
+
+    this.UID = ++Notification.lastUID;
+    var jsx;
+    var text;
+
+    if (typeof message === "string") {
+      jsx = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("p", {
+        className: "p-text"
+      }, message);
+      text = message;
+    } else {
+      jsx = message;
+      text = message.props.toString();
+    }
+
+    var i = notification.findIndex(function (e) {
+      return e.text === text;
+    });
+
+    if (i < 0) {
+      var md5 = ts_md5_dist_md5__WEBPACK_IMPORTED_MODULE_3__["Md5"].hashStr(text);
+
+      if (!exists(md5)) {
+        notification.push({
+          uid: this.UID,
+          modal: false,
+          jsx: jsx,
+          text: text,
+          declineButton: undefined,
+          acceptButton: undefined,
+          timerS: undefined,
+          created: Date.now(),
+          md5: md5,
+          clickable: false,
+          modalable: false
+        });
+        notificationUpdate();
+      }
+    } else {
+      notification[i].created = Date.now();
+    }
+  }
+
+  _createClass(Notification, [{
+    key: "modal",
+    value: function modal() {
+      var n = this.find();
+      if (n !== null) n.modal = true;
+      return this;
+    }
+  }, {
+    key: "clickable",
+    value: function clickable() {
+      var n = this.find();
+      if (n !== null) n.clickable = true;
+      return this;
+    }
+  }, {
+    key: "modalable",
+    value: function modalable() {
+      var n = this.find();
+      if (n !== null) n.modalable = true;
+      return this;
+    }
+  }, {
+    key: "declineButton",
+    value: function declineButton(text) {
+      var n = this.find();
+      if (n !== null) n.declineButton = text;
+      return this;
+    }
+  }, {
+    key: "acceptButton",
+    value: function acceptButton(text) {
+      var n = this.find();
+      if (n !== null) n.acceptButton = text;
+      return this;
+    }
+  }, {
+    key: "timer",
+    value: function timer(timerS) {
+      var n = this.find();
+      if (n !== null) n.timerS = timerS;
+      watchNotification();
+      return this;
+    }
+  }, {
+    key: "onResult",
+    value: function onResult(_onResult) {
+      var n = this.find();
+      if (n !== null) n.onResult = _onResult;
+      return this;
+    }
+  }, {
+    key: "didMount",
+    value: function didMount(_didMount) {
+      var n = this.find();
+      if (n !== null) n.didMount = _didMount;
+      return this;
+    }
+  }, {
+    key: "delete",
+    value: function _delete(result) {
+      deleteNotification(this.UID, result);
+    }
+  }, {
+    key: "find",
+    value: function find() {
+      var _this = this;
+
+      var i = notification.findIndex(function (e) {
+        return e.uid === _this.UID;
+      });
+
+      if (i >= 0) {
+        return notification[i];
+      }
+
+      return null;
+    }
+  }]);
+
+  return Notification;
+}();
+Notification.lastUID = 0;
+
+var NotificationView = /*#__PURE__*/function (_React$Component) {
+  _inherits(NotificationView, _React$Component);
+
+  var _super = _createSuper(NotificationView);
+
+  function NotificationView(props) {
+    var _this2;
+
+    _classCallCheck(this, NotificationView);
+
+    _this2 = _super.call(this, props);
+
+    notificationUpdate = function notificationUpdate() {
+      return _this2.forceUpdate();
+    };
+
+    return _this2;
+  }
+
+  _createClass(NotificationView, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      watchNotification();
+      this.extraDidMount();
+    }
+  }, {
+    key: "componentWillUnmount",
+    value: function componentWillUnmount() {
+      window.clearInterval(intervalID);
+    }
+  }, {
+    key: "componentDidUpdate",
+    value: function componentDidUpdate() {
+      this.extraDidMount();
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var _this$props = this.props,
+          prefixCls = _this$props.prefixCls,
+          className = _this$props.className,
+          extraCoverName = _this$props.extraCoverName;
+      var warpCls = classnames__WEBPACK_IMPORTED_MODULE_0___default()(prefixCls, className, _defineProperty({}, "".concat(prefixCls, "-modal"), notification.some(function (e) {
+        return e.modal;
+      })));
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("div", {
+        className: warpCls,
+        onClick: function onClick(event) {
+          event.preventDefault();
+          event.stopPropagation(); // notification.forEach(e => {
+          //   if (!e.modalable) return
+          //   deleteNotification(e.uid, false)
+          // })
+
+          var lastMess = notification[notification.length - 1];
+          if (!lastMess.modalable) return;
+          deleteNotification(lastMess.uid, false);
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("div", {
+        className: "".concat(prefixCls, "-cover ").concat(extraCoverName ? extraCoverName : "")
+      }, this.notifications()));
+    }
+  }, {
+    key: "notifications",
+    value: function notifications() {
+      var _this3 = this;
+
+      var _this$props2 = this.props,
+          prefixCls = _this$props2.prefixCls,
+          extraMessageName = _this$props2.extraMessageName;
+      var result = notification.map(function (e, i) {
+        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("div", {
+          key: i,
+          className: "".concat(prefixCls, "-message ").concat(extraMessageName ? extraMessageName : ""),
+          onClick: function onClick(event) {
+            event.preventDefault();
+            event.stopPropagation();
+
+            if (e.clickable || e.declineButton === undefined && e.acceptButton === undefined) {
+              deleteNotification(e.uid, true);
+            }
+          }
+        }, e.jsx, _this3.buttons(e));
+      });
+      return result;
+    }
+  }, {
+    key: "hasButtons",
+    value: function hasButtons(n) {
+      return n.acceptButton !== undefined || n.declineButton !== undefined;
+    }
+  }, {
+    key: "buttons",
+    value: function buttons(n) {
+      if (!this.hasButtons(n)) return false;
+      var _this$props3 = this.props,
+          prefixCls = _this$props3.prefixCls,
+          extraButton = _this$props3.extraButton,
+          activeName = _this$props3.activeName;
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("div", {
+        className: "".concat(prefixCls, "-buttons")
+      }, n.acceptButton !== undefined && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__["createElement"](_button_index__WEBPACK_IMPORTED_MODULE_2__["default"], {
+        inline: true,
+        activeClassName: activeName ? activeName : "",
+        className: "".concat(prefixCls, "-button ").concat(extraButton ? extraButton : ""),
+        onClick: function onClick() {
+          deleteNotification(n.uid, true);
+        }
+      }, n.acceptButton), n.declineButton !== undefined && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__["createElement"](_button_index__WEBPACK_IMPORTED_MODULE_2__["default"], {
+        inline: true,
+        activeClassName: activeName,
+        className: "".concat(prefixCls, "-button ").concat(extraButton ? extraButton : ""),
+        onClick: function onClick() {
+          deleteNotification(n.uid, false);
+        }
+      }, n.declineButton));
+    }
+  }, {
+    key: "extraDidMount",
+    value: function extraDidMount() {
+      notification.filter(function (e) {
+        return e.didMount !== undefined;
+      }).forEach(function (e) {
+        if (e.didMount !== undefined) {
+          e.didMount();
+          e.didMount = undefined;
+        }
+      });
+    }
+  }]);
+
+  return NotificationView;
+}(react__WEBPACK_IMPORTED_MODULE_1__["Component"]);
+
+NotificationView.Notification = Notification;
+NotificationView.defaultProps = {
+  prefixCls: "pm-notification"
+};
+/* harmony default export */ __webpack_exports__["default"] = (NotificationView);
+
+/***/ }),
+
+/***/ "../../../components/notification-view/style/index.less":
+/*!************************************************************************!*\
+  !*** D:/PRO-github/resc/components/notification-view/style/index.less ***!
+  \************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+
+/***/ "../../../components/notification-view/style/index.tsx":
+/*!***********************************************************************!*\
+  !*** D:/PRO-github/resc/components/notification-view/style/index.tsx ***!
+  \***********************************************************************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _style___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../style/ */ "../../../components/style/index.tsx");
+/* harmony import */ var _icon_style___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../icon/style/ */ "../../../components/icon/style/index.tsx");
+/* harmony import */ var _index_less__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./index.less */ "../../../components/notification-view/style/index.less");
+/* harmony import */ var _index_less__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_index_less__WEBPACK_IMPORTED_MODULE_2__);
+
 
 
 
@@ -7217,6 +7609,419 @@ function (_super) {
 
 /* harmony default export */ __webpack_exports__["default"] = (TouchEffect);
 
+
+/***/ }),
+
+/***/ "../../ts-md5/dist/md5.js":
+/*!**********************************************************!*\
+  !*** D:/PRO-github/resc/node_modules/ts-md5/dist/md5.js ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+/*
+
+TypeScript Md5
+==============
+
+Based on work by
+* Joseph Myers: http://www.myersdaily.org/joseph/javascript/md5-text.html
+* André Cruz: https://github.com/satazor/SparkMD5
+* Raymond Hill: https://github.com/gorhill/yamd5.js
+
+Effectively a TypeScrypt re-write of Raymond Hill JS Library
+
+The MIT License (MIT)
+
+Copyright (C) 2014 Raymond Hill
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+
+
+            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+                    Version 2, December 2004
+
+ Copyright (C) 2015 André Cruz <amdfcruz@gmail.com>
+
+ Everyone is permitted to copy and distribute verbatim or modified
+ copies of this license document, and changing it is allowed as long
+ as the name is changed.
+
+            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+  0. You just DO WHAT THE FUCK YOU WANT TO.
+
+
+*/
+Object.defineProperty(exports, "__esModule", { value: true });
+var Md5 = /** @class */ (function () {
+    function Md5() {
+        this._state = new Int32Array(4);
+        this._buffer = new ArrayBuffer(68);
+        this._buffer8 = new Uint8Array(this._buffer, 0, 68);
+        this._buffer32 = new Uint32Array(this._buffer, 0, 17);
+        this.start();
+    }
+    // One time hashing functions
+    Md5.hashStr = function (str, raw) {
+        if (raw === void 0) { raw = false; }
+        return this.onePassHasher
+            .start()
+            .appendStr(str)
+            .end(raw);
+    };
+    Md5.hashAsciiStr = function (str, raw) {
+        if (raw === void 0) { raw = false; }
+        return this.onePassHasher
+            .start()
+            .appendAsciiStr(str)
+            .end(raw);
+    };
+    Md5._hex = function (x) {
+        var hc = Md5.hexChars;
+        var ho = Md5.hexOut;
+        var n;
+        var offset;
+        var j;
+        var i;
+        for (i = 0; i < 4; i += 1) {
+            offset = i * 8;
+            n = x[i];
+            for (j = 0; j < 8; j += 2) {
+                ho[offset + 1 + j] = hc.charAt(n & 0x0F);
+                n >>>= 4;
+                ho[offset + 0 + j] = hc.charAt(n & 0x0F);
+                n >>>= 4;
+            }
+        }
+        return ho.join('');
+    };
+    Md5._md5cycle = function (x, k) {
+        var a = x[0];
+        var b = x[1];
+        var c = x[2];
+        var d = x[3];
+        // ff()
+        a += (b & c | ~b & d) + k[0] - 680876936 | 0;
+        a = (a << 7 | a >>> 25) + b | 0;
+        d += (a & b | ~a & c) + k[1] - 389564586 | 0;
+        d = (d << 12 | d >>> 20) + a | 0;
+        c += (d & a | ~d & b) + k[2] + 606105819 | 0;
+        c = (c << 17 | c >>> 15) + d | 0;
+        b += (c & d | ~c & a) + k[3] - 1044525330 | 0;
+        b = (b << 22 | b >>> 10) + c | 0;
+        a += (b & c | ~b & d) + k[4] - 176418897 | 0;
+        a = (a << 7 | a >>> 25) + b | 0;
+        d += (a & b | ~a & c) + k[5] + 1200080426 | 0;
+        d = (d << 12 | d >>> 20) + a | 0;
+        c += (d & a | ~d & b) + k[6] - 1473231341 | 0;
+        c = (c << 17 | c >>> 15) + d | 0;
+        b += (c & d | ~c & a) + k[7] - 45705983 | 0;
+        b = (b << 22 | b >>> 10) + c | 0;
+        a += (b & c | ~b & d) + k[8] + 1770035416 | 0;
+        a = (a << 7 | a >>> 25) + b | 0;
+        d += (a & b | ~a & c) + k[9] - 1958414417 | 0;
+        d = (d << 12 | d >>> 20) + a | 0;
+        c += (d & a | ~d & b) + k[10] - 42063 | 0;
+        c = (c << 17 | c >>> 15) + d | 0;
+        b += (c & d | ~c & a) + k[11] - 1990404162 | 0;
+        b = (b << 22 | b >>> 10) + c | 0;
+        a += (b & c | ~b & d) + k[12] + 1804603682 | 0;
+        a = (a << 7 | a >>> 25) + b | 0;
+        d += (a & b | ~a & c) + k[13] - 40341101 | 0;
+        d = (d << 12 | d >>> 20) + a | 0;
+        c += (d & a | ~d & b) + k[14] - 1502002290 | 0;
+        c = (c << 17 | c >>> 15) + d | 0;
+        b += (c & d | ~c & a) + k[15] + 1236535329 | 0;
+        b = (b << 22 | b >>> 10) + c | 0;
+        // gg()
+        a += (b & d | c & ~d) + k[1] - 165796510 | 0;
+        a = (a << 5 | a >>> 27) + b | 0;
+        d += (a & c | b & ~c) + k[6] - 1069501632 | 0;
+        d = (d << 9 | d >>> 23) + a | 0;
+        c += (d & b | a & ~b) + k[11] + 643717713 | 0;
+        c = (c << 14 | c >>> 18) + d | 0;
+        b += (c & a | d & ~a) + k[0] - 373897302 | 0;
+        b = (b << 20 | b >>> 12) + c | 0;
+        a += (b & d | c & ~d) + k[5] - 701558691 | 0;
+        a = (a << 5 | a >>> 27) + b | 0;
+        d += (a & c | b & ~c) + k[10] + 38016083 | 0;
+        d = (d << 9 | d >>> 23) + a | 0;
+        c += (d & b | a & ~b) + k[15] - 660478335 | 0;
+        c = (c << 14 | c >>> 18) + d | 0;
+        b += (c & a | d & ~a) + k[4] - 405537848 | 0;
+        b = (b << 20 | b >>> 12) + c | 0;
+        a += (b & d | c & ~d) + k[9] + 568446438 | 0;
+        a = (a << 5 | a >>> 27) + b | 0;
+        d += (a & c | b & ~c) + k[14] - 1019803690 | 0;
+        d = (d << 9 | d >>> 23) + a | 0;
+        c += (d & b | a & ~b) + k[3] - 187363961 | 0;
+        c = (c << 14 | c >>> 18) + d | 0;
+        b += (c & a | d & ~a) + k[8] + 1163531501 | 0;
+        b = (b << 20 | b >>> 12) + c | 0;
+        a += (b & d | c & ~d) + k[13] - 1444681467 | 0;
+        a = (a << 5 | a >>> 27) + b | 0;
+        d += (a & c | b & ~c) + k[2] - 51403784 | 0;
+        d = (d << 9 | d >>> 23) + a | 0;
+        c += (d & b | a & ~b) + k[7] + 1735328473 | 0;
+        c = (c << 14 | c >>> 18) + d | 0;
+        b += (c & a | d & ~a) + k[12] - 1926607734 | 0;
+        b = (b << 20 | b >>> 12) + c | 0;
+        // hh()
+        a += (b ^ c ^ d) + k[5] - 378558 | 0;
+        a = (a << 4 | a >>> 28) + b | 0;
+        d += (a ^ b ^ c) + k[8] - 2022574463 | 0;
+        d = (d << 11 | d >>> 21) + a | 0;
+        c += (d ^ a ^ b) + k[11] + 1839030562 | 0;
+        c = (c << 16 | c >>> 16) + d | 0;
+        b += (c ^ d ^ a) + k[14] - 35309556 | 0;
+        b = (b << 23 | b >>> 9) + c | 0;
+        a += (b ^ c ^ d) + k[1] - 1530992060 | 0;
+        a = (a << 4 | a >>> 28) + b | 0;
+        d += (a ^ b ^ c) + k[4] + 1272893353 | 0;
+        d = (d << 11 | d >>> 21) + a | 0;
+        c += (d ^ a ^ b) + k[7] - 155497632 | 0;
+        c = (c << 16 | c >>> 16) + d | 0;
+        b += (c ^ d ^ a) + k[10] - 1094730640 | 0;
+        b = (b << 23 | b >>> 9) + c | 0;
+        a += (b ^ c ^ d) + k[13] + 681279174 | 0;
+        a = (a << 4 | a >>> 28) + b | 0;
+        d += (a ^ b ^ c) + k[0] - 358537222 | 0;
+        d = (d << 11 | d >>> 21) + a | 0;
+        c += (d ^ a ^ b) + k[3] - 722521979 | 0;
+        c = (c << 16 | c >>> 16) + d | 0;
+        b += (c ^ d ^ a) + k[6] + 76029189 | 0;
+        b = (b << 23 | b >>> 9) + c | 0;
+        a += (b ^ c ^ d) + k[9] - 640364487 | 0;
+        a = (a << 4 | a >>> 28) + b | 0;
+        d += (a ^ b ^ c) + k[12] - 421815835 | 0;
+        d = (d << 11 | d >>> 21) + a | 0;
+        c += (d ^ a ^ b) + k[15] + 530742520 | 0;
+        c = (c << 16 | c >>> 16) + d | 0;
+        b += (c ^ d ^ a) + k[2] - 995338651 | 0;
+        b = (b << 23 | b >>> 9) + c | 0;
+        // ii()
+        a += (c ^ (b | ~d)) + k[0] - 198630844 | 0;
+        a = (a << 6 | a >>> 26) + b | 0;
+        d += (b ^ (a | ~c)) + k[7] + 1126891415 | 0;
+        d = (d << 10 | d >>> 22) + a | 0;
+        c += (a ^ (d | ~b)) + k[14] - 1416354905 | 0;
+        c = (c << 15 | c >>> 17) + d | 0;
+        b += (d ^ (c | ~a)) + k[5] - 57434055 | 0;
+        b = (b << 21 | b >>> 11) + c | 0;
+        a += (c ^ (b | ~d)) + k[12] + 1700485571 | 0;
+        a = (a << 6 | a >>> 26) + b | 0;
+        d += (b ^ (a | ~c)) + k[3] - 1894986606 | 0;
+        d = (d << 10 | d >>> 22) + a | 0;
+        c += (a ^ (d | ~b)) + k[10] - 1051523 | 0;
+        c = (c << 15 | c >>> 17) + d | 0;
+        b += (d ^ (c | ~a)) + k[1] - 2054922799 | 0;
+        b = (b << 21 | b >>> 11) + c | 0;
+        a += (c ^ (b | ~d)) + k[8] + 1873313359 | 0;
+        a = (a << 6 | a >>> 26) + b | 0;
+        d += (b ^ (a | ~c)) + k[15] - 30611744 | 0;
+        d = (d << 10 | d >>> 22) + a | 0;
+        c += (a ^ (d | ~b)) + k[6] - 1560198380 | 0;
+        c = (c << 15 | c >>> 17) + d | 0;
+        b += (d ^ (c | ~a)) + k[13] + 1309151649 | 0;
+        b = (b << 21 | b >>> 11) + c | 0;
+        a += (c ^ (b | ~d)) + k[4] - 145523070 | 0;
+        a = (a << 6 | a >>> 26) + b | 0;
+        d += (b ^ (a | ~c)) + k[11] - 1120210379 | 0;
+        d = (d << 10 | d >>> 22) + a | 0;
+        c += (a ^ (d | ~b)) + k[2] + 718787259 | 0;
+        c = (c << 15 | c >>> 17) + d | 0;
+        b += (d ^ (c | ~a)) + k[9] - 343485551 | 0;
+        b = (b << 21 | b >>> 11) + c | 0;
+        x[0] = a + x[0] | 0;
+        x[1] = b + x[1] | 0;
+        x[2] = c + x[2] | 0;
+        x[3] = d + x[3] | 0;
+    };
+    Md5.prototype.start = function () {
+        this._dataLength = 0;
+        this._bufferLength = 0;
+        this._state.set(Md5.stateIdentity);
+        return this;
+    };
+    // Char to code point to to array conversion:
+    // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charCodeAt
+    // #Example.3A_Fixing_charCodeAt_to_handle_non-Basic-Multilingual-Plane_characters_if_their_presence_earlier_in_the_string_is_unknown
+    Md5.prototype.appendStr = function (str) {
+        var buf8 = this._buffer8;
+        var buf32 = this._buffer32;
+        var bufLen = this._bufferLength;
+        var code;
+        var i;
+        for (i = 0; i < str.length; i += 1) {
+            code = str.charCodeAt(i);
+            if (code < 128) {
+                buf8[bufLen++] = code;
+            }
+            else if (code < 0x800) {
+                buf8[bufLen++] = (code >>> 6) + 0xC0;
+                buf8[bufLen++] = code & 0x3F | 0x80;
+            }
+            else if (code < 0xD800 || code > 0xDBFF) {
+                buf8[bufLen++] = (code >>> 12) + 0xE0;
+                buf8[bufLen++] = (code >>> 6 & 0x3F) | 0x80;
+                buf8[bufLen++] = (code & 0x3F) | 0x80;
+            }
+            else {
+                code = ((code - 0xD800) * 0x400) + (str.charCodeAt(++i) - 0xDC00) + 0x10000;
+                if (code > 0x10FFFF) {
+                    throw new Error('Unicode standard supports code points up to U+10FFFF');
+                }
+                buf8[bufLen++] = (code >>> 18) + 0xF0;
+                buf8[bufLen++] = (code >>> 12 & 0x3F) | 0x80;
+                buf8[bufLen++] = (code >>> 6 & 0x3F) | 0x80;
+                buf8[bufLen++] = (code & 0x3F) | 0x80;
+            }
+            if (bufLen >= 64) {
+                this._dataLength += 64;
+                Md5._md5cycle(this._state, buf32);
+                bufLen -= 64;
+                buf32[0] = buf32[16];
+            }
+        }
+        this._bufferLength = bufLen;
+        return this;
+    };
+    Md5.prototype.appendAsciiStr = function (str) {
+        var buf8 = this._buffer8;
+        var buf32 = this._buffer32;
+        var bufLen = this._bufferLength;
+        var i;
+        var j = 0;
+        for (;;) {
+            i = Math.min(str.length - j, 64 - bufLen);
+            while (i--) {
+                buf8[bufLen++] = str.charCodeAt(j++);
+            }
+            if (bufLen < 64) {
+                break;
+            }
+            this._dataLength += 64;
+            Md5._md5cycle(this._state, buf32);
+            bufLen = 0;
+        }
+        this._bufferLength = bufLen;
+        return this;
+    };
+    Md5.prototype.appendByteArray = function (input) {
+        var buf8 = this._buffer8;
+        var buf32 = this._buffer32;
+        var bufLen = this._bufferLength;
+        var i;
+        var j = 0;
+        for (;;) {
+            i = Math.min(input.length - j, 64 - bufLen);
+            while (i--) {
+                buf8[bufLen++] = input[j++];
+            }
+            if (bufLen < 64) {
+                break;
+            }
+            this._dataLength += 64;
+            Md5._md5cycle(this._state, buf32);
+            bufLen = 0;
+        }
+        this._bufferLength = bufLen;
+        return this;
+    };
+    Md5.prototype.getState = function () {
+        var self = this;
+        var s = self._state;
+        return {
+            buffer: String.fromCharCode.apply(null, self._buffer8),
+            buflen: self._bufferLength,
+            length: self._dataLength,
+            state: [s[0], s[1], s[2], s[3]]
+        };
+    };
+    Md5.prototype.setState = function (state) {
+        var buf = state.buffer;
+        var x = state.state;
+        var s = this._state;
+        var i;
+        this._dataLength = state.length;
+        this._bufferLength = state.buflen;
+        s[0] = x[0];
+        s[1] = x[1];
+        s[2] = x[2];
+        s[3] = x[3];
+        for (i = 0; i < buf.length; i += 1) {
+            this._buffer8[i] = buf.charCodeAt(i);
+        }
+    };
+    Md5.prototype.end = function (raw) {
+        if (raw === void 0) { raw = false; }
+        var bufLen = this._bufferLength;
+        var buf8 = this._buffer8;
+        var buf32 = this._buffer32;
+        var i = (bufLen >> 2) + 1;
+        var dataBitsLen;
+        this._dataLength += bufLen;
+        buf8[bufLen] = 0x80;
+        buf8[bufLen + 1] = buf8[bufLen + 2] = buf8[bufLen + 3] = 0;
+        buf32.set(Md5.buffer32Identity.subarray(i), i);
+        if (bufLen > 55) {
+            Md5._md5cycle(this._state, buf32);
+            buf32.set(Md5.buffer32Identity);
+        }
+        // Do the final computation based on the tail and length
+        // Beware that the final length may not fit in 32 bits so we take care of that
+        dataBitsLen = this._dataLength * 8;
+        if (dataBitsLen <= 0xFFFFFFFF) {
+            buf32[14] = dataBitsLen;
+        }
+        else {
+            var matches = dataBitsLen.toString(16).match(/(.*?)(.{0,8})$/);
+            if (matches === null) {
+                return;
+            }
+            var lo = parseInt(matches[2], 16);
+            var hi = parseInt(matches[1], 16) || 0;
+            buf32[14] = lo;
+            buf32[15] = hi;
+        }
+        Md5._md5cycle(this._state, buf32);
+        return raw ? this._state : Md5._hex(this._state);
+    };
+    // Private Static Variables
+    Md5.stateIdentity = new Int32Array([1732584193, -271733879, -1732584194, 271733878]);
+    Md5.buffer32Identity = new Int32Array([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]);
+    Md5.hexChars = '0123456789abcdef';
+    Md5.hexOut = [];
+    // Permanent instance is to use for one-call hashing
+    Md5.onePassHasher = new Md5();
+    return Md5;
+}());
+exports.Md5 = Md5;
+if (Md5.hashStr('hello') !== '5d41402abc4b2a76b9719d911017c592') {
+    console.error('Md5 self test failed.');
+}
+//# sourceMappingURL=md5.js.map
 
 /***/ }),
 
