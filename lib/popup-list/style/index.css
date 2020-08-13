@@ -1,0 +1,40 @@
+.pm-popup-list {
+  display: block;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.8);
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 750;
+}
+.pm-popup-list-content {
+  position: absolute;
+  display: block;
+  background: black;
+  border-radius: 0.5em;
+  border: 3px solid var(--col-border);
+  width: 80%;
+  margin: auto;
+  padding: 8px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.pm-popup-list-header {
+  padding: 4px;
+  width: calc(100% - 4px);
+  border: none;
+  outline: none;
+  margin: 8px 4px 8px 4px;
+}
+.pm-popup-list-selected {
+  border: #108ee9 solid 1px;
+}
+.pm-popup-list-footer {
+  padding: 4px;
+  width: calc(100% - 4px);
+  border: none;
+  outline: none;
+  margin: 8px 4px 8px 4px;
+}
